@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background: #605F5E;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    position: sticky;
+    align-items: stretch;
+    justify-content: space-between;
+}
+header{
+    background-color: #1F487E;
+    
+}
+header::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.logo{
+    float: left;
+    width: 15%;
+    padding: 10px 0;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+nav li{
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 25px;
+    height: 100%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+nav li:hover{
+    background-color: #1D3461;
+    transition: ease 0.3s;
+}
+nav li:hover a{
+    color: #EC3D0F;
+    transition: ease 0.3s;
+}
+.first{
+    padding: 0;
+    padding-top: 50px;
+    margin: 0;
+    height: 100%;
+    background-color: white;
+}
+.first h1{
+    padding-top: 70px;
+    padding-left: 100px;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 0;
+    color: #EC3D0F;
+}
+.first img{
+    width: 40%;
+    float: right;
+}
+.first p{
+    width: 50%;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+.button{
+        float: right;
+        background-color: #247BA0;
+        color: white;
+        text-decoration: none;
+        margin: 15px 0;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: 1.3rem;
+        font-weight: 200;
+}
+section::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.second{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+}
+.jumbotron{
+    background-color: #605F5E;
+    text-align: center;
+}
+.jumbotron h2{
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.second p{
+    font-size: 1.5rem;
+    padding: 0;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #EC3D0F;
+    color: white;
+}
