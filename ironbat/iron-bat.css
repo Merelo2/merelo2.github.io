@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bat1{
+    width: 40%;
+    height: auto;
+}
