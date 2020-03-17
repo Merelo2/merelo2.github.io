@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+#wrap{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Indie Flower', cursive;
+}
+body.fall{
+    background-image: url(fall-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+body.winter{
+    background-image: url(winter-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+body.spring{
+    background-image: url(spring-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+body.summer{
+    background-image: url(summer-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header img{
+    width: 100%;
+}
+nav ul{
+    margin: 50px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #000000;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 6rem;
+    color: white;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 70%;
+}
+section p{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+p.winter{
+    font-size: 1.5rem;
+}
